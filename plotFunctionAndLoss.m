@@ -1,0 +1,11 @@
+function plotFunctionAndLoss(x, fx, w, b, l)
+subplot(1,2,1)
+plot(x,fx,'o-r')
+xlabel('x')
+ylabel('f(x)')
+subplot(1,2,2)
+mesh(w,b,l)
+xlabel('w')
+ylabel('b')
+zlabel('Loss')
+endfunction
