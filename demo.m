@@ -19,7 +19,7 @@ wCurrent = 10.0;
 bCurrent = 10.0;
 lCurrent = loss(x,fx,wCurrent,bCurrent); 
 
-hold-on;
+hold on;
 
 plot3(wCurrent,bCurrent,lCurrent,'o-r*');
 

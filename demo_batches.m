@@ -8,7 +8,7 @@ mesh(ww,bb,l);
 xlabel('w')
 ylabel('b')
 zlabel('loss(w,b)')
-hold-on 
+hold on; 
 
 
 subplot(1,2,2);
@@ -16,7 +16,7 @@ mesh(ww,bb,l);
 xlabel('w')
 ylabel('b')
 zlabel('loss(w,b)')
-hold-on 
+hold on; 
 
 pause()
 wCurrentLRood = 10.0;
